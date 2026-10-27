@@ -1,0 +1,15 @@
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\bin\Debug\net10.0\ClasesInnovaStock.deps.json
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\bin\Debug\net10.0\ClasesInnovaStock.dll
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\bin\Debug\net10.0\ClasesInnovaStock.pdb
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.csproj.AssemblyReference.cache
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.GeneratedMSBuildEditorConfig.editorconfig
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.AssemblyInfoInputs.cache
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.AssemblyInfo.cs
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.csproj.CoreCompileInputs.cache
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.dll
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\refint\ClasesInnovaStock.dll
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.pdb
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ref\ClasesInnovaStock.dll
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesIn.ADC38ECB.Up2Date
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\bin\Debug\net10.0\ClasesInnovaStock.runtimeconfig.json
+C:\program2.0\ClasesInnovaStock\ClasesInnovaStock\obj\Debug\net10.0\ClasesInnovaStock.genruntimeconfig.cache
