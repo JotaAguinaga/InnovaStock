@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joaqu\\Desktop\\Practica Prog\\Work in class\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-      "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\joaqu\\Desktop\\Practica Prog\\Work in class\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\joaqu\\Desktop\\Practica Prog\\Work in class\\WinFormsApp1\\WinFormsApp\\WinFormsApp.csproj",
+      "projectName": "WinFormsApp",
+      "projectPath": "C:\\Users\\joaqu\\Desktop\\Practica Prog\\Work in class\\WinFormsApp1\\WinFormsApp\\WinFormsApp.csproj",
       "packagesPath": "C:\\Users\\joaqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joaqu\\Desktop\\Practica Prog\\Work in class\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\Users\\joaqu\\Desktop\\Practica Prog\\Work in class\\WinFormsApp1\\WinFormsApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joaqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
