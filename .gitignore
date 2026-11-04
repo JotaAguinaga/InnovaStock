@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Compilación de .NET
+[Bb]in/
+[Oo]bj/
+
+# Archivos generados por Visual Studio y MSBuild
+*.pdb
+*.cache
+*.log
+
+# Paquetes y herramientas locales
+packages/
+.nuget/packages/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db

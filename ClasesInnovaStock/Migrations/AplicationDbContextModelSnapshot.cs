@@ -50,7 +50,7 @@ namespace ClasesInnovaStock.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("ColorCMYK")
+                    b.Property<string>("Color")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -62,10 +62,6 @@ namespace ClasesInnovaStock.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<decimal>("StockActual")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Tipo")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UnidadMedida")

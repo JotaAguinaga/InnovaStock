@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="ClasesInnovaStock/ClasesInnovaStock.csproj" />
   <Project Path="WinFormsApp/WinFormsApp.csproj" />
+  <Project Path="WinFormsApp2/WinFormsApp2.csproj" Id="acb1f95a-54b3-4fe9-b37d-e01fc289abb5" />
 </Solution>

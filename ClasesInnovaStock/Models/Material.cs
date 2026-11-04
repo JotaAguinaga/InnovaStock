@@ -6,8 +6,7 @@ namespace ClasesInnovaStock.Models
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public string Tipo { get; set; }
-        public string ColorCMYK { get; set; }
+        public string Color { get; set; }
         public decimal PrecioUnitario { get; set; }
         public decimal StockActual { get; set; }
         public string UnidadMedida { get; set; }
