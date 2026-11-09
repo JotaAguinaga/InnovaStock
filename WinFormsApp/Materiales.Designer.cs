@@ -46,7 +46,7 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
-            // label1 (Nombre)
+            // label1
             // 
             label1.AutoSize = true;
             label1.Location = new Point(33, 34);
@@ -55,7 +55,7 @@
             label1.TabIndex = 0;
             label1.Text = "Nombre";
             // 
-            // label2 (Precio)
+            // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(33, 72);
@@ -64,7 +64,7 @@
             label2.TabIndex = 1;
             label2.Text = "Precio";
             // 
-            // label3 (Stock o Costo adicional)
+            // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(33, 155);
@@ -73,7 +73,7 @@
             label3.TabIndex = 2;
             label3.Text = "Stock";
             // 
-            // label4 (Costo)
+            // label4
             // 
             label4.AutoSize = true;
             label4.Location = new Point(33, 114);
@@ -83,7 +83,7 @@
             label4.Text = "Costo";
             label4.Click += label4_Click;
             // 
-            // textBox1 (Nombre)
+            // textBox1
             // 
             textBox1.BackColor = SystemColors.Window;
             textBox1.Location = new Point(90, 31);
@@ -92,7 +92,7 @@
             textBox1.TabIndex = 4;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // textBox2 (Precio)
+            // textBox2
             // 
             textBox2.BackColor = SystemColors.Window;
             textBox2.Location = new Point(90, 69);
@@ -100,7 +100,7 @@
             textBox2.Size = new Size(158, 23);
             textBox2.TabIndex = 5;
             // 
-            // textBox3 (Costo)
+            // textBox3
             // 
             textBox3.BackColor = SystemColors.Window;
             textBox3.Location = new Point(90, 111);
@@ -108,7 +108,7 @@
             textBox3.Size = new Size(158, 23);
             textBox3.TabIndex = 6;
             // 
-            // textBox4 (Stock)
+            // textBox4
             // 
             textBox4.BackColor = SystemColors.Window;
             textBox4.Location = new Point(90, 152);
@@ -116,7 +116,7 @@
             textBox4.Size = new Size(158, 23);
             textBox4.TabIndex = 7;
             // 
-            // label6 (Panel Lateral Rojo)
+            // label6
             // 
             label6.BackColor = Color.Crimson;
             label6.Dock = DockStyle.Right;
@@ -131,7 +131,7 @@
             label6.Text = "Materiales";
             label6.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button1 (Agregar)
+            // button1
             // 
             button1.Location = new Point(23, 202);
             button1.Name = "button1";
@@ -141,7 +141,7 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2 (Modificar)
+            // button2
             // 
             button2.Location = new Point(104, 202);
             button2.Name = "button2";
@@ -151,7 +151,7 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
-            // button3 (Quitar)
+            // button3
             // 
             button3.Location = new Point(185, 202);
             button3.Name = "button3";
@@ -170,7 +170,7 @@
             dataGridView1.TabIndex = 12;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
-            // button4 (Tintas)
+            // button4
             // 
             button4.Location = new Point(530, 398);
             button4.Name = "button4";
@@ -180,7 +180,7 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
-            // button5 (Menu)
+            // button5
             // 
             button5.Location = new Point(615, 398);
             button5.Name = "button5";
@@ -216,7 +216,6 @@
             ResumeLayout(false);
             PerformLayout();
         }
-
         #endregion
 
         private Label label1;

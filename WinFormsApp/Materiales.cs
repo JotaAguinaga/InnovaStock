@@ -7,7 +7,6 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinFormsApp
 {
@@ -40,11 +39,9 @@ namespace WinFormsApp
             }
         }
 
-        private void label2_Click(object sender, EventArgs e) { }
         private void label4_Click(object sender, EventArgs e) { }
         private void textBox1_TextChanged(object sender, EventArgs e) { }
 
-        
         // --- BOTÓN 1: AGREGAR ---
         private void button1_Click(object sender, EventArgs e)
         {
@@ -61,7 +58,8 @@ namespace WinFormsApp
                     Nombre = textBox1.Text,                             // textBox1: Nombre
                     PrecioUnitario = decimal.Parse(textBox2.Text),      // textBox2: Precio
                     StockActual = decimal.Parse(textBox4.Text),         // textBox4: Stock
-                    Color = "N/A"                                       // Propiedad Color existente
+                    Color = "N/A",                                      // Propiedad Color por defecto
+                    UnidadMedida = "unidades"                           // Evita error NOT NULL en la base de datos
                 };
 
                 _repoMateriales.Agregar(nuevoMaterial);
@@ -72,7 +70,8 @@ namespace WinFormsApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al agregar: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string mensajeError = ex.InnerException != null ? ex.InnerException.Message : ex.Message;
+                MessageBox.Show($"Error detallado: {mensajeError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -86,12 +85,11 @@ namespace WinFormsApp
 
                 textBox1.Text = fila.Cells["Nombre"].Value?.ToString();
                 textBox2.Text = fila.Cells["PrecioUnitario"].Value?.ToString();
-                textBox3.Text = fila.Cells["Costo"].Value?.ToString();
+                textBox3.Clear(); // textBox3 (Costo visual) se limpia al seleccionar ya que no es una propiedad directa del modelo
                 textBox4.Text = fila.Cells["StockActual"].Value?.ToString();
             }
         }
 
-        // --- BOTÓN 2: MODIFICAR ---
         // --- BOTÓN 2: MODIFICAR ---
         private void button2_Click(object sender, EventArgs e)
         {
@@ -109,6 +107,7 @@ namespace WinFormsApp
                     materialAEditar.Nombre = textBox1.Text;
                     materialAEditar.PrecioUnitario = decimal.Parse(textBox2.Text);
                     materialAEditar.StockActual = decimal.Parse(textBox4.Text);
+                    materialAEditar.UnidadMedida = "unidades";
 
                     _repoMateriales.Modificar(materialAEditar);
                     MessageBox.Show("Material modificado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -119,7 +118,8 @@ namespace WinFormsApp
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al modificar: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string mensajeError = ex.InnerException != null ? ex.InnerException.Message : ex.Message;
+                MessageBox.Show($"Error detallado: {mensajeError}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

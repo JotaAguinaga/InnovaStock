@@ -21,13 +21,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClasesInnovaStock\ClasesInnovaStock.csproj" />
-    <ProjectReference Include="..\WinFormsApp2\WinFormsApp2.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
